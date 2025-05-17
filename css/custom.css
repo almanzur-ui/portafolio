@@ -1,0 +1,64 @@
+/* Titulo H1 de Pagina Index */
+h1 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 36px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+    }
+} 
+
+p.text-muted {
+    text-align: center;
+}
+
+.modulos h2 {
+    text-align: center;
+    font-family: georgia;
+}
+
+.modulos .row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.modulos .card {
+    padding: 0px;
+}
+
+/* Barra */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+body {
+    background-color: #dfe6e9;
+}
+
+.bg-light {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background: #dfe6e9;
+    padding: 15px;
+}
+
+.card-title {
+    text-align: center;
+    color: #343a40;
+}
+
+.card-img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: darkgrey;
+    text-decoration: underline;
+}
